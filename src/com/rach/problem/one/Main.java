@@ -1,4 +1,4 @@
-package com.rach;
+package com.rach.problem.one;
 import java.util.List;
 
 public class Main {

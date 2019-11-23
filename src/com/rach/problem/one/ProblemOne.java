@@ -1,4 +1,4 @@
-package com.rach;
+package com.rach.problem.one;
 
 import java.util.ArrayList;
 import java.util.Arrays;

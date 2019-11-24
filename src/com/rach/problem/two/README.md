@@ -21,7 +21,7 @@ Follow-up: what if you can't use division?
 
 # Solution
 
-## Psuedocode
+## Pseudocode
 
 ````
 get array

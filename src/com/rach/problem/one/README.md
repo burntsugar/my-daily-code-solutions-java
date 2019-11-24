@@ -22,7 +22,7 @@ The list is actually a set.
 
 # Solution
 
-## Psuedocode
+## Pseudocode
 
 ````
 1. Sort array ascending

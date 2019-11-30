@@ -30,6 +30,7 @@ add to sum
 
 But no. See *ProblemNineDeviant.java* and *ProblemNineDeviantTest.java*.
 
+![](https://media.giphy.com/media/KGdmgSWTCqimQ/source.gif)
 
 # Solution
 

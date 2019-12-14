@@ -53,6 +53,6 @@ see *Problem22Test.java*
 
 # 🏏 Other
 
-re `return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond']` I had to go back to living a normal life so I didn't implement this but took a look around and found some mind-boggling, unreadable (and mostly untested) examples - as well as some where libraries had been used to get the permuations. Hmmm...that's not cricket 🏏
+re `return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond']` I had to go back to living a normal life so I didn't implement this but took a look around and found some mind-boggling, unreadable (and mostly untested) examples - as well as some where libraries had been used to get the permutations. Hmmm...that's not cricket 🏏
 
 NEXT!

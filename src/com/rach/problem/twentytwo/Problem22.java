@@ -1,7 +1,6 @@
 package com.rach.problem.twentytwo;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Problem22 {

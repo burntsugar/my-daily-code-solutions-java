@@ -1,72 +1,25 @@
 package com.rach.problem.twentytwo;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Problem22 {
 
-//    String arr[] = {"quick", "brown", "the", "fox"};
-//    String expected[] = {"the", "quick", "brown", "fox"};
-//    String strOfWords = "thequickbrownfox";
-
-    public static String[] solve1(String[] arr, String str){
-        String words[] = new String[arr.length];
-        for (int i = 0; i < arr.length; i ++){
-            // For each word...
-            String word = arr[i];
-            for (int letter = 0; letter < str.length(); letter++){
-                // For each letter...
-                if(word.charAt(0)==str.charAt(letter)){
-                    String found = "";
-                    found += str.charAt(letter);
-                    int index = letter + 1;
-                    int count = 1;
-                    while(found.length()<word.length()){
-                        if(word.charAt(count)==str.charAt(index)){
-                            found += str.charAt(index);
-                            index += 1;
-                            count += 1;
-                        } else {
-                            break;
-                        }
-                    }
-                    words[i] = found;
-                }
-
-            }
-        }
-
-
-        return words;
-    }
-
-
-    //    String arr[] = {"quick", "brown", "the", "fox"};
-//    String expected[] = {"the", "quick", "brown", "fox"};
-//    String strOfWords = "thequickbrownfox";
-
-    public static String[] solve2(String[] arr, String str){
-
-        String words[] = new String[arr.length];
-
-        for (int i = 0; i < str.length(); i ++){
-            // For each letter...
-            char ch = str.charAt(0);
-            for (int j = 0; j < arr.length; j++ ) {
-                // For each word...
-                String word = arr[j];
-                int count = 0;
-                StringBuilder sb = new StringBuilder();
-                while((count < word.length()) && word.charAt(count++)==str.charAt(i+count)){
-                    System.out.println(str.charAt(i+count));
-                    sb.append(str.charAt(i+count));
-                }
-                if (sb.length() > 1){
-                    words[0] = sb.toString();
+    public static String[] solve(String[] arr, String str) {
+        List<String> words = new ArrayList<String>();
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (str.startsWith(arr[j])) {
+                    words.add(arr[j]);
+                    str = str.substring(arr[j].length());
                 }
             }
-
         }
-
-
-        return words;
+        words.forEach((w) -> System.out.println(w));
+        String[] wordsArray = new String[words.size()];
+        wordsArray = words.toArray(wordsArray);
+        return wordsArray;
     }
 
 }

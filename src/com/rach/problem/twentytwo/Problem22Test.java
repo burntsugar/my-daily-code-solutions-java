@@ -1,22 +1,25 @@
 package com.rach.problem.twentytwo;
 
-import org.junit.Assert;
-import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 public class Problem22Test {
-//    @Test
-//    public void Test1(){
-//        String arr[] = {"quick", "brown", "the", "fox"};
-//        String expected[] = {"the", "quick", "brown", "fox"};
-//        String strOfWords = "thequickbrownfox";
-//        Assert.assertEquals(expected,Problem22.solve1(arr, strOfWords));
-//    }
 
-    @Test
-    public void Test1(){
+    @org.junit.jupiter.api.Test
+    void solve1() {
         String arr[] = {"quick", "brown", "the", "fox"};
         String expected[] = {"the", "quick", "brown", "fox"};
         String strOfWords = "thequickbrownfox";
-        Assert.assertEquals(expected,Problem22.solve2(arr, strOfWords));
+        assertArrayEquals(expected,Problem22.solve(arr, strOfWords));
     }
+
+    @org.junit.jupiter.api.Test
+    void solve2() {
+        String arr[] = {"bed", "bath", "bedbath", "and", "beyond"};
+        String expected[] = {"bed", "bath", "and", "beyond"};
+        String strOfWords = "bedbathandbeyond";
+        assertArrayEquals(expected,Problem22.solve(arr, strOfWords));
+    }
+
 }

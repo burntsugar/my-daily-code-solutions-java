@@ -1,9 +1,9 @@
-# Problem 30
+# Daily Coding Problem: Problem #30 [Medium]
 
 ````
-Good morning! Here's your coding interview problem for today.
+From https://www.dailycodingproblem.com/
 
-Daily Coding Problem: Problem #30 [Medium]
+Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Facebook.
 

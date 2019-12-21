@@ -1,9 +1,7 @@
-# Problem 9
+# Daily Coding Problem: Problem #9 [Hard]
 
 ````
 From https://www.dailycodingproblem.com/
-
-Daily Coding Problem: Problem #9 [Hard]
 
 Good morning! Here's your coding interview problem for today.
 

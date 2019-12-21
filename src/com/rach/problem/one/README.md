@@ -1,9 +1,7 @@
-# Problem 1
+# Daily Coding Problem: Problem #1 [Easy]
 
 ````
 From https://www.dailycodingproblem.com/
-
-Daily Coding Problem: Problem #1 [Easy]
 
 Good morning! Here's your coding interview problem for today.
 

@@ -1,12 +1,5 @@
 package com.rach.problem.thirty;
 
-import org.w3c.dom.ls.LSOutput;
-
-import javax.crypto.spec.PSource;
-import javax.swing.*;
-import java.security.spec.RSAOtherPrimeInfo;
-import java.util.*;
-
 public class Problem30 {
 
     public static int solve(int[] nums){

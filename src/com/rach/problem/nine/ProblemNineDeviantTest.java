@@ -7,7 +7,6 @@ public class ProblemNineDeviantTest {
 
     @Test
     public void testOne(){
-        //int[] arr = {2, 2, 2, 6, 2, 5, 7, 1, 8, 1, 1, 1, 1, 2};
         int[] arr = {2, 4, 6, 2, 5};
         int expected = 13;
         assertEquals(expected, ProblemNineDeviant.solve(arr));

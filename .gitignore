@@ -1,5 +1,5 @@
-Ignore*
-ignore*
+Ignore*.java
+ignore*.java
 /out
 /bin
 .idea

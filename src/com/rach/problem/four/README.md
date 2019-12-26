@@ -28,8 +28,7 @@ nup
 
 # Tests
 
-See *ProblemFourTest.java*
-See *ProblemFourTestCheat.java*
+See *com.rach.problem.four*
 
 # Extra
 

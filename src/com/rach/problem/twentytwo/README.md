@@ -49,7 +49,7 @@ word: fox
 
 # Tests
 
-see *Problem22Test.java*
+See *com.rach.problem.twentytwo*
 
 # 🏏 Other
 

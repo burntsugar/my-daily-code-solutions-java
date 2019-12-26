@@ -24,7 +24,7 @@ nup
 
 # Tests
 
-see *Problem31Test.java*
+See *com.rach.problem.thirtyone*
 
 # Other
 

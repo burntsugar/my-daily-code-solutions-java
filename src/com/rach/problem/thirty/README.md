@@ -47,7 +47,7 @@ water units = 6
 
 # Tests
 
-see *Problem30Test.java*
+See *com.rach.problem.thirty*
 
 # Other
 

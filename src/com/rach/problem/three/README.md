@@ -35,7 +35,7 @@ nup
 
 # Tests
 
-see *ProblemThreeTest.java*
+See *com.rach.problem.three*
 
 # Extra
 

@@ -45,7 +45,7 @@ last sum = temp
 
 # Tests
 
-See *ProblemNineTest.java*.
+See *com.rach.problem.nine*
 
 # Extra
 

@@ -22,7 +22,7 @@ nup
 
 # Tests
 
-see *Problem29Test.java*
+See *com.rach.problem.twentynine*
 
 # Other
 

@@ -47,7 +47,7 @@ water units = 6
 
 # Tests
 
-See *com.rach.problem.thirty*
+See *test/com/rach/problem/thirty*
 
 # Other
 

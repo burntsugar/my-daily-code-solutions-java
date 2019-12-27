@@ -49,7 +49,7 @@ word: fox
 
 # Tests
 
-See *com.rach.problem.twentytwo*
+See *test/com/rach/problem/twentytwo*
 
 # 🏏 Other
 

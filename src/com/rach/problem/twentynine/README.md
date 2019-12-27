@@ -22,7 +22,7 @@ nup
 
 # Tests
 
-See *com.rach.problem.twentynine*
+See *test/com/rach/problem/twentynine*
 
 # Other
 

@@ -45,7 +45,7 @@ last sum = temp
 
 # Tests
 
-See *com.rach.problem.nine*
+See *test/com/rach/problem/nine*
 
 # Extra
 

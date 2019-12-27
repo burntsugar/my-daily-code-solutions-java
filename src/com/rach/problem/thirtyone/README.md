@@ -24,7 +24,7 @@ nup
 
 # Tests
 
-See *com.rach.problem.thirtyone*
+See *test/com/rach/problem/thirtyone*
 
 # Other
 

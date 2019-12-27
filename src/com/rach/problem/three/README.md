@@ -35,7 +35,7 @@ nup
 
 # Tests
 
-See *com.rach.problem.three*
+See *test/com/rach/problem/three*
 
 # Extra
 

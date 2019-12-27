@@ -94,7 +94,7 @@ end
 
 # Tests
 
-see *com.rach.problem.thirtyfive*
+See *test/com/rach/problem/thirtyfive*
 
 # Other
 

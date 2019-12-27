@@ -28,7 +28,7 @@ nup
 
 # Tests
 
-See *com.rach.problem.four*
+See *test/com/rach/problem/four*
 
 # Extra
 

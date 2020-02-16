@@ -2,9 +2,6 @@ package com.rach.problem.thirtyfive;
 
 import com.rach.problem.thirtyone.Problem31;
 import org.junit.jupiter.api.*;
-
-import java.util.Arrays;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Problem35Test {
